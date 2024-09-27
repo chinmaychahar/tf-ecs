@@ -1,0 +1,5 @@
+cluster_name             = "test"
+region                   = "us-east-1"
+logs_group               = "/ecs/test"
+nginx_ecr_repository_url = "<account number>.dkr.ecr.us-east-1.amazonaws.com/test-nginx:latest"
+php_ecr_repository_url   = "<account number>.dkr.ecr.us-east-1.amazonaws.com/test-php:latest"
